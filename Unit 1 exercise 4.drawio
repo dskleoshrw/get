@@ -1,11 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T22:23:19.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="RB-74-7eLo59rXN2vct-" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-08T03:08:17.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 Edg/85.0.564.44" etag="2Z3sCmsx_Uv7s2pQrMQS" version="13.6.6" type="github">
   <diagram id="pkRGabHacolZZG_19YhH" name="Page-1">
     <mxGraphModel dx="1173" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="f5xt4VCijeW7_UZX-B6N-1" value="un" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" width="120" height="80" as="geometry" />
+        <mxCell id="TC4L47T5a7daDtGir_80-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f5xt4VCijeW7_UZX-B6N-1" target="TC4L47T5a7daDtGir_80-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5xt4VCijeW7_UZX-B6N-1" value="Begin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TC4L47T5a7daDtGir_80-1" target="TC4L47T5a7daDtGir_80-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-1" value="Input hoursPerDay" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TC4L47T5a7daDtGir_80-3" target="TC4L47T5a7daDtGir_80-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-3" value="hoursFiveDays = hoursPerDay * 5" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TC4L47T5a7daDtGir_80-5" target="TC4L47T5a7daDtGir_80-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-5" value="hoursWorkYear = hoursPerDay * 252" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="520" width="208" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TC4L47T5a7daDtGir_80-7" target="TC4L47T5a7daDtGir_80-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-7" value="Output hoursFiveDays" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TC4L47T5a7daDtGir_80-13" target="TC4L47T5a7daDtGir_80-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-13" value="Output hoursWorkYear" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TC4L47T5a7daDtGir_80-15" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="790" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
