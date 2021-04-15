@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T01:57:48.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="_PHsnLW_RWYgCmTjLmzB" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-15T02:10:57.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="3Rjhjww0mKdK0yG0V2zo" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1317" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,9 +28,6 @@
         <mxCell id="oxnMFIMo6EgywjvBsu5N-5" value="Input:&lt;br&gt;&quot;pick your class?&lt;br&gt;Warrior, Archer, Priest&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-60" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oxnMFIMo6EgywjvBsu5N-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-8" target="oxnMFIMo6EgywjvBsu5N-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-8" target="oxnMFIMo6EgywjvBsu5N-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -38,10 +35,7 @@
           <mxGeometry x="-40" y="504.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-10" value="Give Following:&lt;br&gt;&quot;Dual Hand Axe&quot; (item)&lt;br&gt;&quot;Throwing Axe&quot; (item)&lt;br&gt;&quot;Shoulder Throw&quot; (skill)&lt;br&gt;&quot;Health Potion x3&quot; (item)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="506.75" width="150" height="75.5" as="geometry" />
-        </mxCell>
-        <mxCell id="oxnMFIMo6EgywjvBsu5N-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-12" target="oxnMFIMo6EgywjvBsu5N-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="120" y="506.75" width="150" height="75.5" as="geometry" />
         </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-12" target="oxnMFIMo6EgywjvBsu5N-16">
           <mxGeometry relative="1" as="geometry" />
@@ -50,16 +44,88 @@
           <mxGeometry x="-40" y="620" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-14" value="Give Following:&lt;br&gt;&quot;Bow&quot; (item)&lt;br&gt;&quot;Dagger&quot; (item)&lt;br&gt;&quot;Rapid fire&quot; (skill)&lt;br&gt;&quot;Health Potion x3&quot; (item)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="620" width="140" height="80" as="geometry" />
+          <mxGeometry x="120" y="620" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oxnMFIMo6EgywjvBsu5N-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-16" target="oxnMFIMo6EgywjvBsu5N-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oxnMFIMo6EgywjvBsu5N-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="840" />
+              <mxPoint x="-100" y="840" />
+              <mxPoint x="-100" y="480" />
+              <mxPoint x="-20" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-16" value="&quot;Priest?&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-40" y="740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oxnMFIMo6EgywjvBsu5N-18" value="Give Following:&lt;br&gt;&quot;Mace&quot; (item)&lt;br&gt;&quot;Enchanting Book&quot; (item)&lt;br&gt;&quot;Health Potion x3&quot; (item)&lt;br&gt;&quot;Enchantment: Fire word&quot; (skill)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="735" width="170" height="90" as="geometry" />
+          <mxGeometry x="120" y="735" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-24" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oxnMFIMo6EgywjvBsu5N-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="544.1" as="sourcePoint" />
+            <mxPoint x="80" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-25" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="oxnMFIMo6EgywjvBsu5N-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-30" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="659.6" as="sourcePoint" />
+            <mxPoint x="120" y="659.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-31" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="oxnMFIMo6EgywjvBsu5N-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-32" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oxnMFIMo6EgywjvBsu5N-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="780" as="sourcePoint" />
+            <mxPoint x="110" y="779.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-33" value="True" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="oxnMFIMo6EgywjvBsu5N-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-37" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-38" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="544.1" as="sourcePoint" />
+            <mxPoint y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="544.6" />
+              <mxPoint x="360" y="545" />
+              <mxPoint x="360" y="640" />
+              <mxPoint x="360" y="880" />
+              <mxPoint y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-39" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="670" as="sourcePoint" />
+            <mxPoint x="360" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-41" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="790" as="sourcePoint" />
+            <mxPoint x="360" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oxnMFIMo6EgywjvBsu5N-42" value="End of part one" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="920" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
