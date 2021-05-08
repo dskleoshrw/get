@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T03:14:14.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jC1uENRy7B1-hB9QUOvV" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T03:23:40.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Iyih5vlScVDFImBqlUi_" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1487" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1142,8 +1142,8 @@
             <mxPoint x="2610" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="battle_phase()&lt;br&gt;While player_health is greater than 0 OR enemy_health is greater than 0&lt;br&gt;dodgeTarget = 1&lt;br&gt;Print&lt;br&gt;“What would you like to do? \nAttack, Heal, Dodge, &lt;br&gt;Spell: &quot;&lt;br&gt;Enter&lt;br&gt;user_input&lt;br&gt;uppercase(user_input)&lt;br&gt;user_input = “ATTACK”?&lt;br&gt;Set die_roll to equal the result of function user_dice_roll with &lt;br&gt;parameter(die_roll)&lt;br&gt;If die_roll is greater than 1&lt;br&gt;Initialize int damage to equal 0Set damage to equal player_base_dmg multiplied by the &lt;br&gt;die_roll multiplied by 0.5 minus the player_base_dmg &lt;br&gt;multiplied by the enemy_base_arm&lt;br&gt;Set enemy_health to equal enemy health minus damage&lt;br&gt;Print to the screen, “You dealt damage! monster health is &lt;br&gt;now at &quot; &amp;lt;&amp;lt; enemy_health&lt;br&gt;Else&lt;br&gt;Print to the screen, “Attack missed!!!”&lt;br&gt;Else if user_input is equal to “DODGE”&lt;br&gt;Set dodgeTarget to equal the function dodgeRoll&lt;br&gt;Else if user_input is equal to “HEAL”&lt;br&gt;Execute function healSpell&lt;br&gt;Else if user_input is equal to “SPELL”&lt;br&gt;Initialize int damage to equal 0&lt;br&gt;Set damage to equal BOLT_SPL plus player_base_dmg divided by &lt;br&gt;2&lt;br&gt;Set enemy_health to equal enemy_health minus damage&lt;br&gt;Else if user_input is equal to “CHEAT”&lt;br&gt;Set enemy_health to equal itself minus 100 &lt;br&gt;// Purely for testing purposes&lt;br&gt;If enemy_health is less than or equal to 0&lt;br&gt;Set battle_result to equal “Victory”&lt;br&gt;Break&lt;br&gt;Else&lt;br&gt;Set die_roll to equal the result of function enemy_dice_roll with &lt;br&gt;parameter(die_roll)&lt;br&gt;Print to the screen, “The enemy rolled” &amp;lt;&amp;lt; die_roll&lt;br&gt;If die_roll is greater than dodgeTarget&lt;br&gt;Initialize int damage to 0Set damage to equal enemy_base_dmg multiplied by the &lt;br&gt;die_roll multiples by 0.5 minus the enemy_base_dmg &lt;br&gt;multiplied by the player_base_arm&lt;br&gt;Set player_health to equal player_health minus damage&lt;br&gt;Print to the screen, “You received damage! Your health is &lt;br&gt;now at &quot; &amp;lt;&amp;lt; player_health&lt;br&gt;Else&lt;br&gt;Print to the screen, “The enemy missed.”&lt;br&gt;If player_health is less than or equal to 0&lt;br&gt;Set battle_result to equal “Defeat”&lt;br&gt;Break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5260" y="3440" width="377" height="757" as="geometry" />
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="battle_phase()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;If die_roll is greater than 1&lt;br&gt;Initialize int damage to equal 0Set damage to equal player_base_dmg multiplied by the &lt;br&gt;die_roll multiplied by 0.5 minus the player_base_dmg &lt;br&gt;multiplied by the enemy_base_arm&lt;br&gt;Set enemy_health to equal enemy health minus damage&lt;br&gt;Print to the screen, “You dealt damage! monster health is &lt;br&gt;now at &quot; &amp;lt;&amp;lt; enemy_health&lt;br&gt;Else&lt;br&gt;Print to the screen, “Attack missed!!!”&lt;br&gt;&lt;br&gt;&lt;br&gt;Else if user_input is equal to “DODGE”&lt;br&gt;Set dodgeTarget to equal the function dodgeRoll&lt;br&gt;&lt;br&gt;Else if user_input is equal to “HEAL”&lt;br&gt;Execute function healSpell&lt;br&gt;&lt;br&gt;Else if user_input is equal to “SPELL”&lt;br&gt;Initialize int damage to equal 0&lt;br&gt;Set damage to equal BOLT_SPL plus player_base_dmg divided by &lt;br&gt;2&lt;br&gt;Set enemy_health to equal enemy_health minus damage&lt;br&gt;Else if user_input is equal to “CHEAT”&lt;br&gt;Set enemy_health to equal itself minus 100 &lt;br&gt;// Purely for testing purposes&lt;br&gt;If enemy_health is less than or equal to 0&lt;br&gt;Set battle_result to equal “Victory”&lt;br&gt;Break&lt;br&gt;Else&lt;br&gt;Set die_roll to equal the result of function enemy_dice_roll with &lt;br&gt;parameter(die_roll)&lt;br&gt;Print to the screen, “The enemy rolled” &amp;lt;&amp;lt; die_roll&lt;br&gt;If die_roll is greater than dodgeTarget&lt;br&gt;Initialize int damage to 0Set damage to equal enemy_base_dmg multiplied by the &lt;br&gt;die_roll multiples by 0.5 minus the enemy_base_dmg &lt;br&gt;multiplied by the player_base_arm&lt;br&gt;Set player_health to equal player_health minus damage&lt;br&gt;Print to the screen, “You received damage! Your health is &lt;br&gt;now at &quot; &amp;lt;&amp;lt; player_health&lt;br&gt;Else&lt;br&gt;Print to the screen, “The enemy missed.”&lt;br&gt;If player_health is less than or equal to 0&lt;br&gt;Set battle_result to equal “Defeat”&lt;br&gt;Break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5770" y="3743" width="377" height="757" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-436" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-437" target="tO4ShZDr2KQQv1oVLNhw-439">
           <mxGeometry relative="1" as="geometry" />
@@ -1738,6 +1738,57 @@
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-628" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4060" y="2860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-634" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-632" target="tO4ShZDr2KQQv1oVLNhw-633">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-632" value="battle_phase()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4870" y="3530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-638" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-633" target="tO4ShZDr2KQQv1oVLNhw-637">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-640" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-633" target="tO4ShZDr2KQQv1oVLNhw-639">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-633" value="&lt;span&gt;player_health is greater than 0 OR enemy_health is greater than 0?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4705" y="3660" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-637" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4870" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-642" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-639" target="tO4ShZDr2KQQv1oVLNhw-641">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-639" value="&lt;span&gt;dodgeTarget = 1&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5260" y="3670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-644" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-641" target="tO4ShZDr2KQQv1oVLNhw-643">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-641" value="&lt;span&gt;Print&lt;/span&gt;&lt;br&gt;&lt;span&gt;What would you like to do? &lt;br&gt;Attack, Heal, Dodge,&amp;nbsp;&lt;/span&gt;&lt;span&gt;Spell:&amp;nbsp;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5220" y="3790" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-646" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-643" target="tO4ShZDr2KQQv1oVLNhw-645">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-643" value="&lt;span&gt;Enter&lt;/span&gt;&lt;br&gt;&lt;span&gt;user_input&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5260" y="3890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-648" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-645" target="tO4ShZDr2KQQv1oVLNhw-647">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-645" value="&lt;span&gt;uppercase(user_input)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5245" y="4015" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-650" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-647" target="tO4ShZDr2KQQv1oVLNhw-649">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-647" value="&lt;span&gt;user_input = “ATTACK”?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5280" y="4145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-649" value="&lt;span&gt;die_roll = user_dice_roll&lt;/span&gt;&lt;span&gt;(die_roll)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5420" y="4155" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
