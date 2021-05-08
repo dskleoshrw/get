@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T03:46:56.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="iJDM9ukizOAjg136INpM" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T03:52:19.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="hW3Ie3GLez01btu6da18" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1053" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1264" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1142,7 +1142,7 @@
             <mxPoint x="2610" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="battle_phase()&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;Else&lt;br&gt;Print to the screen, “Attack missed!!!”&lt;br&gt;&lt;br&gt;Else&lt;br&gt;die_roll = enemy_dice_roll(die_roll)&lt;br&gt;Print&lt;br&gt;“The enemy rolled” die_roll&lt;br&gt;die_roll &amp;gt; dodgeTarget?&lt;br&gt;int damage = 0&lt;br&gt;damage = damage = enemy_base_dmg * (die_roll * .5) - (enemy_base_dmg * player_base_arm)&lt;br&gt;Set player_health to equal player_health minus damage&lt;br&gt;Print to the screen, “You received damage! Your health is &lt;br&gt;now at &quot; &amp;lt;&amp;lt; player_health&lt;br&gt;Else&lt;br&gt;Print to the screen, “The enemy missed.”&lt;br&gt;If player_health is less than or equal to 0&lt;br&gt;Set battle_result to equal “Defeat”&lt;br&gt;Break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="battle_phase()&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;Else&lt;br&gt;&lt;br&gt;Else&lt;br&gt;die_roll = enemy_dice_roll(die_roll)&lt;br&gt;Print&lt;br&gt;“The enemy rolled” die_roll&lt;br&gt;die_roll &amp;gt; dodgeTarget?&lt;br&gt;int damage = 0&lt;br&gt;damage = damage = enemy_base_dmg * (die_roll * .5) - (enemy_base_dmg * player_base_arm)&lt;br&gt;player_health = player_health - damage&lt;br&gt;Print&lt;br&gt;“You received damage! Your health is &lt;br&gt;now at &quot; player_health&lt;br&gt;Else&lt;br&gt;Print&lt;br&gt;“The enemy missed.”&lt;br&gt;player_health &amp;lt;= 0?&lt;br&gt;battle_result = “Defeat”&lt;br&gt;Break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6700" y="4313" width="377" height="757" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-436" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-437" target="tO4ShZDr2KQQv1oVLNhw-439">
@@ -1790,6 +1790,9 @@
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-647" value="&lt;span&gt;user_input = “ATTACK”?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5280" y="4165" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-682" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-649" target="tO4ShZDr2KQQv1oVLNhw-671">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-649" value="&lt;span&gt;die_roll = user_dice_roll&lt;/span&gt;&lt;span&gt;(die_roll)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5430" y="4175" width="150" height="60" as="geometry" />
         </mxCell>
@@ -1847,20 +1850,32 @@
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-669" value="&lt;span&gt;enemy_health = enemy_health - damage&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5860" y="4650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-684" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-671" target="tO4ShZDr2KQQv1oVLNhw-683">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-690" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-671" target="tO4ShZDr2KQQv1oVLNhw-689">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-671" value="&lt;span&gt;die_roll &amp;lt; 1?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5650" y="4170" width="80" height="80" as="geometry" />
+          <mxGeometry x="5660" y="4165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-687" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-674" target="tO4ShZDr2KQQv1oVLNhw-677">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-674" value="&lt;span&gt;enemy_health = enemy_health + damage&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="6470" y="4460" width="120" height="60" as="geometry" />
+          <mxGeometry x="6390" y="4175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-686" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-675" target="tO4ShZDr2KQQv1oVLNhw-674">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-675" value="&lt;span&gt;damage = player_base_dmg * (die_roll * .5) - (player_base_dmg * enemy_base_arm)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="6360" y="4370" width="320" height="60" as="geometry" />
+          <mxGeometry x="5990" y="4175" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-676" value="&lt;span&gt;int damage = 0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="6470" y="4290" width="120" height="60" as="geometry" />
+          <mxGeometry x="6760" y="4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-677" value="&lt;span&gt;Print&lt;/span&gt;&lt;br&gt;&lt;span&gt;“You dealt damage! monster health is&amp;nbsp;&lt;/span&gt;&lt;span&gt;now at &quot;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;enemy_health&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="6370" y="4560" width="310" height="90" as="geometry" />
+          <mxGeometry x="6295" y="4290" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-681" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-678" target="tO4ShZDr2KQQv1oVLNhw-680">
           <mxGeometry relative="1" as="geometry" />
@@ -1870,6 +1885,18 @@
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-680" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="5667.5" y="4790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-685" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-683" target="tO4ShZDr2KQQv1oVLNhw-675">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-683" value="&lt;span&gt;int damage = 0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5800" y="4175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-688" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="6485" y="4610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-689" value="&lt;span&gt;Print&lt;/span&gt;&lt;br&gt;&lt;span&gt;“Attack missed!!!”&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5780" y="4290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
