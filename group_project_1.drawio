@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T04:06:14.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6WKPrf5RGew8gzDj3VUk" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T04:07:47.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="toOppixpUoHOh9E6Ku39" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1264" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="506" dy="231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1957,6 +1957,14 @@
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-703" value="&lt;span&gt;player_health = player_health - damage&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6810" y="4160" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-719" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-704">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="3630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6880" y="3630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-704" value="&lt;span&gt;Print&lt;/span&gt;&lt;br&gt;&lt;span&gt;“You received damage! Your health is&lt;/span&gt;&lt;br&gt;&lt;span&gt;now at &quot; player_health&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="6725" y="4040" width="310" height="60" as="geometry" />
         </mxCell>
@@ -1968,6 +1976,14 @@
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-717" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-706" target="tO4ShZDr2KQQv1oVLNhw-707">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-720" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-706">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4930" y="3630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="7165" y="3630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-706" value="&lt;span&gt;player_health &amp;lt;= 0?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="7095" y="4250" width="140" height="80" as="geometry" />
