@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T02:30:36.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="D_WLLqGBUNZ0yv-N8Qv6" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:48:59.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="KDJgtOLkK92e1CmwUzZ2" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2107" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1142,8 +1142,8 @@
             <mxPoint x="2610" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="Void function healSpell&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Print to the screen &lt;br&gt;&lt;br&gt;Void function dodgeRoll&lt;br&gt;&lt;br&gt;Set strand time to 0&lt;br&gt;Set string input to “ “&lt;br&gt;Create int yourDie to equal a random number between 1 and 6&lt;br&gt;Create int enemyDie to equal a random number between 1 and 6&lt;br&gt;While true&lt;br&gt;Print to the screen, “Is the enemy attacking from on HIGH or LOW?”&lt;br&gt;Collect user input in variable input&lt;br&gt;Use function uppercase on input&lt;br&gt;If input is equal to “HIGH”&lt;br&gt;If yourDie plus dodgeRating is greater than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen. &lt;br&gt;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen &lt;br&gt;“You guessed incorrectly, the enemy Attacked!”&lt;br&gt;Return 1&lt;br&gt;If input is equal to “LOW”&lt;br&gt;If yourDie minus dodgeRating is less than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen.&lt;br&gt;&amp;nbsp;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen “You guessed incorrectly, the enemy &lt;br&gt;Attacked!”&lt;br&gt;Return 1&lt;br&gt;Else&lt;br&gt;Print to the screen, “We did not hear you, please answer: HIGH or &lt;br&gt;LOW.”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3454.5" y="2030" width="450" height="667" as="geometry" />
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="While true&lt;br&gt;&lt;br&gt;input = “HIGH”?&lt;br&gt;(yourDie + dodgeRating) &amp;gt; enemyDie?&lt;br&gt;player_mana = player_mana + yourDie&lt;br&gt;Print to the screen. &lt;br&gt;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen &lt;br&gt;“You guessed incorrectly, the enemy Attacked!”&lt;br&gt;Return 1&lt;br&gt;If input is equal to “LOW”&lt;br&gt;If yourDie minus dodgeRating is less than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen.&lt;br&gt;&amp;nbsp;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen “You guessed incorrectly, the enemy &lt;br&gt;Attacked!”&lt;br&gt;Return 1&lt;br&gt;Else&lt;br&gt;Print to the screen,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3830" y="2483" width="377" height="667" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-436" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-437" target="tO4ShZDr2KQQv1oVLNhw-439">
           <mxGeometry relative="1" as="geometry" />
@@ -1534,6 +1534,83 @@
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-552" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2030" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-556" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-554" target="tO4ShZDr2KQQv1oVLNhw-555">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-554" value="&lt;span&gt;dodgeRoll()&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-558" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-555" target="tO4ShZDr2KQQv1oVLNhw-557">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-555" value="strand time = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-560" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-557" target="tO4ShZDr2KQQv1oVLNhw-559">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-557" value="&lt;span&gt;string input = “ “&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-562" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-559" target="tO4ShZDr2KQQv1oVLNhw-561">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-559" value="&lt;span&gt;int yourDie = a random number between 1 and 6&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3070" y="2440" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-571" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-561" target="tO4ShZDr2KQQv1oVLNhw-570">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-561" value="&lt;span&gt;int enemyDie = a random number between 1 and 6&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3060" y="2540" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-573" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-570" target="tO4ShZDr2KQQv1oVLNhw-572">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-570" value="&lt;span&gt;Print&lt;br&gt;&lt;/span&gt;Is the enemy attacking from on HIGH or LOW?&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-575" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-572" target="tO4ShZDr2KQQv1oVLNhw-574">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-572" value="Enter&lt;br&gt;input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-577" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-574" target="tO4ShZDr2KQQv1oVLNhw-576">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-574" value="&lt;span&gt;uppercase(input)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3140" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-579" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-576" target="tO4ShZDr2KQQv1oVLNhw-578">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-576" value="Continue Loop?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3160" y="2980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-581" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-578" target="tO4ShZDr2KQQv1oVLNhw-580">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-578" value="input = &quot;HIGH&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3490" y="2980" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-585" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-580" target="tO4ShZDr2KQQv1oVLNhw-582">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-580" value="input = &quot;LOW&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3492.5" y="2863" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-586" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-582">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3200" y="2620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3545" y="2620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-582" value="Print&lt;br&gt;“We did not hear you, please answer: HIGH or LOW.”" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3360" y="2760" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
