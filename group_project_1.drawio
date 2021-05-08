@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T01:50:41.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6jwfpkgJBxPSaUYz5JlD" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T01:54:42.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bqiAivDmUilPQN3krd3V" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="8427" dy="3853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9723" dy="4446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -799,9 +799,6 @@
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-291" value="assign_class()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2020" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tO4ShZDr2KQQv1oVLNhw-293" value="et string armor_type to&lt;br&gt;&amp;nbsp;“”While true&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2710" y="1120" width="200" height="594.5" as="geometry" />
-        </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-297" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-294" target="tO4ShZDr2KQQv1oVLNhw-296">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1144,6 +1141,9 @@
             <mxPoint x="2170" y="1520" as="sourcePoint" />
             <mxPoint x="2610" y="1570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="Void function assign_enemy&lt;br/&gt;Set string armor_type to “”&lt;br/&gt;While true&lt;br/&gt;If user_input is equal to “IMP” &lt;br/&gt;Set enemy_health to imp.health&lt;br/&gt;Set enemy_base_dmg to IMP_DMG&lt;br/&gt;Set armor_type to imp.armor&lt;br/&gt;Break&lt;br/&gt;Else If user_input is equal to “GUARD” &lt;br/&gt;Set enemy_health to guard.health&lt;br/&gt;Set enemy_base_dmg to SWORD_DMG&lt;br/&gt;Set armor_type to guard.armor&lt;br/&gt;Break&lt;br/&gt;If user_input is equal to “BOSS”&lt;br/&gt;Set enemy_health to boss_slime.health&lt;br/&gt;Set enemy_base_dmg to SLIME_DMG&lt;br/&gt;Set armor_type to boss_slime.armor&lt;br/&gt;Break&lt;br/&gt;Else&lt;br/&gt;Print to the screen “Enemy: “ user_input “ is not a valid enemy &lt;br/&gt;name, select between Imp or Guard”&lt;br/&gt;Collect user_input again&lt;br/&gt;Use function uppercase on user_inputIf armor_type is equal to “light”&lt;br/&gt;Set enemy_base_arm to equal LIGHT_REDUCTION&lt;br/&gt;If armor_type is equal to “medium”&lt;br/&gt;Set enemy_base_arm to equal MEDIUM_REDUCTION&lt;br/&gt;If armor_type is equal to “heavy”&lt;br/&gt;Set enemy_base_arm to equal HEAVY_REDUCTION&lt;br/&gt;If armor_type is equal to “none”&lt;br/&gt;Set enemy_base_arm to equal 0’" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2720" y="1470" width="450" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
