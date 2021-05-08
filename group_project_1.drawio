@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T02:23:56.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="hxE525NBOcQLoycg7k48" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:30:36.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="D_WLLqGBUNZ0yv-N8Qv6" version="14.6.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4213" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2107" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1142,8 +1142,8 @@
             <mxPoint x="2610" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="Void function healSpell&lt;br&gt;&lt;br&gt;Set srand time to 0&lt;br&gt;&lt;br&gt;Set player_health to equal player_health plus HEAL_SPL divided by a random &lt;br&gt;number between 1 and 6&lt;br&gt;&lt;br&gt;Set player_mana to equal player_mana minus HEAL_CST&lt;br&gt;&lt;br&gt;Print to the screen &lt;br&gt;“Healing done, current health is” player_health&lt;br&gt;Print to the screen “Current mana is “ player_mana&lt;br&gt;&lt;br&gt;Void function dodgeRoll&lt;br&gt;&lt;br&gt;Set strand time to 0&lt;br&gt;Set string input to “ “&lt;br&gt;Create int yourDie to equal a random number between 1 and 6&lt;br&gt;Create int enemyDie to equal a random number between 1 and 6&lt;br&gt;While true&lt;br&gt;Print to the screen, “Is the enemy attacking from on HIGH or LOW?”&lt;br&gt;Collect user input in variable input&lt;br&gt;Use function uppercase on input&lt;br&gt;If input is equal to “HIGH”&lt;br&gt;If yourDie plus dodgeRating is greater than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen. &lt;br&gt;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen &lt;br&gt;“You guessed incorrectly, the enemy Attacked!”&lt;br&gt;Return 1&lt;br&gt;If input is equal to “LOW”&lt;br&gt;If yourDie minus dodgeRating is less than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen.&lt;br&gt;&amp;nbsp;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen “You guessed incorrectly, the enemy &lt;br&gt;Attacked!”&lt;br&gt;Return 1&lt;br&gt;Else&lt;br&gt;Print to the screen, “We did not hear you, please answer: HIGH or &lt;br&gt;LOW.”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3551" y="2290" width="450" height="667" as="geometry" />
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-429" value="Void function healSpell&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Print to the screen &lt;br&gt;&lt;br&gt;Void function dodgeRoll&lt;br&gt;&lt;br&gt;Set strand time to 0&lt;br&gt;Set string input to “ “&lt;br&gt;Create int yourDie to equal a random number between 1 and 6&lt;br&gt;Create int enemyDie to equal a random number between 1 and 6&lt;br&gt;While true&lt;br&gt;Print to the screen, “Is the enemy attacking from on HIGH or LOW?”&lt;br&gt;Collect user input in variable input&lt;br&gt;Use function uppercase on input&lt;br&gt;If input is equal to “HIGH”&lt;br&gt;If yourDie plus dodgeRating is greater than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen. &lt;br&gt;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen &lt;br&gt;“You guessed incorrectly, the enemy Attacked!”&lt;br&gt;Return 1&lt;br&gt;If input is equal to “LOW”&lt;br&gt;If yourDie minus dodgeRating is less than enemyDie&lt;br&gt;Set player_mana to equal player_mana plus yourDie&lt;br&gt;Print to the screen.&lt;br&gt;&amp;nbsp;“You guessed correctly, mana regained:&quot; &amp;lt;&amp;lt; player_mana&lt;br&gt;Return 7&lt;br&gt;Else&lt;br&gt;Print to the screen “You guessed incorrectly, the enemy &lt;br&gt;Attacked!”&lt;br&gt;Return 1&lt;br&gt;Else&lt;br&gt;Print to the screen, “We did not hear you, please answer: HIGH or &lt;br&gt;LOW.”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3454.5" y="2030" width="450" height="667" as="geometry" />
         </mxCell>
         <mxCell id="tO4ShZDr2KQQv1oVLNhw-436" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-437" target="tO4ShZDr2KQQv1oVLNhw-439">
           <mxGeometry relative="1" as="geometry" />
@@ -1501,6 +1501,39 @@
             <mxPoint x="4193.75" y="1690" as="sourcePoint" />
             <mxPoint x="4330" y="1690" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-543" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-541" target="tO4ShZDr2KQQv1oVLNhw-542">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-541" value="healSpell()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2030" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-545" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-542" target="tO4ShZDr2KQQv1oVLNhw-544">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-542" value="&lt;span&gt;srand time = 0&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2030" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-547" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-544" target="tO4ShZDr2KQQv1oVLNhw-546">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-544" value="&lt;span&gt;player_health = player_health + (HEAL_SPL / by a random&lt;/span&gt;&lt;br&gt;&lt;span&gt;number between 1 and 6)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1920" y="2140" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-551" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-546" target="tO4ShZDr2KQQv1oVLNhw-550">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-546" value="&lt;span&gt;player_mana = player_mana - HEAL_CST&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1950" y="2240" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-553" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tO4ShZDr2KQQv1oVLNhw-550" target="tO4ShZDr2KQQv1oVLNhw-552">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-550" value="Print&lt;br&gt;Healing done, current health is ” player_health &quot;&lt;br&gt;Current mana is “ player_mana &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1935" y="2340" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tO4ShZDr2KQQv1oVLNhw-552" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2030" y="2440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
